@@ -23,7 +23,7 @@ const displaySkills = async () => {
     domElements.skillList.innerHTML = '';
 
     try {
-        const response = await fetch('../data/skills.json');
+        const response = await fetch('data/skills.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -64,7 +64,7 @@ const displayProjects = async () => {
     domElements.projectList.innerHTML = '';
 
     try {
-        const response = await fetch('../data/projects.json');
+        const response = await fetch('data/projects.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -111,7 +111,7 @@ const displayAwards = async () => {
     domElements.awardList.innerHTML = '';
 
     try {
-        const response = await fetch('../data/awards.json');
+        const response = await fetch('data/awards.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
