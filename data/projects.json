@@ -6,6 +6,12 @@
         "description": "A simple online library that allows users to manage books and categories. It includes login and signup functionality, enabling users to borrow and return books seamlessly."
     },
     {
+        "imgSrc": "./assets/imgs/projects/project11.png",
+        "title": "NewsReact",
+        "technologies": "React JS, Vite, NewsDataHub API",
+        "description": "A modern news aggregation web app powered by NewsDataHub API. Features real-time news feed, search functionality, and a responsive UI."
+    },
+    {
         "imgSrc": "./assets/imgs/projects/project9.png",
         "title": "ReactBeans",
         "technologies": "React JS, Vite, Jelly Belly Wiki API",
@@ -24,6 +30,12 @@
         "description": "Book n' Map is a community-driven platform designed to help users discover and share quiet spaces (e.g., libraries)."
     },
     {
+        "imgSrc": "./assets/imgs/projects/project1.png",
+        "title": "LOC8TE: Mobile Application <strong>(Thesis)</strong>",
+        "technologies": "Java, Android Studio, Google Firebase",
+        "description": "An android application for locating and communicating with various types of professionals near you."
+    },
+    {
         "imgSrc": "./assets/imgs/projects/project2.png",
         "title": "E-Commerce Website",
         "technologies": "PHP, MySQL",
@@ -32,7 +44,7 @@
     {
         "imgSrc": "./assets/imgs/projects/project3.png",
         "title": "Minesweep: Java Edition",
-        "technologies": "Java, MySQL",
+        "technologies": "Java, MySQL, Swing GUI",
         "description": "Minesweeper game with a leaderboard, saving of data, and increasing difficulty of levels."
     },
     {
@@ -44,13 +56,13 @@
     {
         "imgSrc": "./assets/imgs/projects/project5.png",
         "title": "Brave Knight: An ASCII Art Adventure",
-        "technologies": "C++, ASCII",
+        "technologies": "C++, ASCII, Console App",
         "description": "A 2D turn-based strategy game wherein the knight needs to conquer a tower full of monsters."
     },
     {
         "imgSrc": "./assets/imgs/projects/project6.png",
         "title": "Public Bubble (Design Prototype)",
-        "technologies": "Figma, High Fidelity",
+        "technologies": "Figma, High Fidelity, UI/UX",
         "description": "This is the concept design for a mobile application that will track and manage all types of public vehicles."
     }
 ]
