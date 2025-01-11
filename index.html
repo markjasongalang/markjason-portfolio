@@ -5,17 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Start your development with Steller landing page.">
         <meta name="author" content="Devcrud">
+        
         <title>Mark Jason - Portfolio</title>
-        <!-- website icon -->
+
+        <!-- Website Icons -->
         <link rel="icon" type="image/x-icon" href="https://www.freepnglogos.com/uploads/games-png/download-games-png-transparent-for-designing-work-5.png">
-        <!-- font icons -->
+        <!-- Font Icons -->
         <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-        <!-- Bootstrap + Steller main styles -->
+        <!-- Bootstrap + Steller Styles -->
         <link rel="stylesheet" href="assets/css/steller.css">
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-
         <!-- Page navigation -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
             <div class="container">
@@ -29,15 +30,19 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#home">Home</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="#skills">Skills</a>
                         </li>                
+
                         <li class="nav-item">
                             <a class="nav-link" href="#projects">Projects</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="#awards">Awards</a>
                         </li>
@@ -45,7 +50,6 @@
                 </div>
             </div>          
         </nav>
-        <!-- End of page navigation -->
 
         <!-- Page Header -->
         <header class="header" id="home">
@@ -57,7 +61,7 @@
 
                     <div class="buttons pt-3">
                         <a
-                            href="My-Resume.pdf" 
+                            href="./assets/pdfs/My-Resume.pdf" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             class="btn btn-primary rounded"
@@ -76,9 +80,8 @@
                 </div>
             </div>  
         </header>
-        <!-- End of Page Header -->
         
-        <!-- About section -->
+        <!-- About -->
         <section id="about" class="section mt-3">
             <div class="container mt-5">
                 <div class="row text-center text-md-left">
@@ -88,279 +91,39 @@
                     <div class="pl-md-4 col-md-9">
                         <h6 class="title">Mark Jason T. Galang</h6>
                         <p class="subtitle">Bachelor of Science in Computer Science with Specialization in Software Engineering<br>FEU Institute of Technology, 2024</p>
-                        <p>As a recent computer science graduate, I am equipped with the knowledge and skills necessary to excel in a rapidly evolving 
-                            tech industry. Throughout my academics and hands-on experience, I have gained competence in technologies such as React, C#, .NET, SQL, PHP, and more.
-                            Lastly, my passion for technology extends beyond the classroom because I've participated in various competitive programming contests (data structures and algorithms).</p>
+                        <p>As a recent computer science graduate, I am equipped with the knowledge and skills necessary to excel in a rapidly evolving tech industry. Throughout my academics and hands-on experience, I have gained competence in technologies such as React, C#, .NET, SQL, PHP, and more. Lastly, my passion for technology extends beyond the classroom because I've participated in various competitive programming contests (data structures and algorithms).</p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End of about section -->
 
-        <!-- Skills section -->
+        <!-- Skills -->
         <section id="skills"  class="section">
             <div class="container text-center">
                 <h6 class="subtitle">Skills</h6>
                 <h6 class="section-title mb-4">Why Choose me</h6>
                 <p class="mb-5 pb-4">Here are the languages & technologies that I've cultivated from our university:</p>
-
-                <div class="row text-center">
-                    <div class="col-sm-4">
-                        <h6 class="mb-4"><i class="ti-angle-double-right"></i>&nbsp;React JS</h6>
-                    </div>
-                    <div class="col-sm-4">
-                        <h6 class="mb-4"><i class="ti-angle-double-right"></i>&nbsp;C#</h6>
-                    </div>
-                    <div class="col-sm-4 mb-5">
-                        <h6 class="mb-4"><i class="ti-angle-double-right"></i>&nbsp;ASP.NET Core</h6>
-                    </div>
-                    <div class="col-sm-4">
-                        <h6 class="mb-4"><i class="ti-angle-double-right"></i>&nbsp;SQL Server</h6>
-                    </div>
-                    <div class="col-sm-4">
-                        <h6 class="mb-4"><i class="ti-angle-double-right"></i>&nbsp;PHP</h6>
-                    </div>
-                    <div class="col-sm-4 mb-5">
-                        <h6 class="mb-4"><i class="ti-angle-double-right"></i>&nbsp;MySQL</h6>
-                    </div>
-                    <div class="col-sm-4">
-                        <h6 class="mb-4"><i class="ti-angle-double-right"></i>&nbsp;JavaScript</h6>
-                    </div>
-                    <div class="col-sm-4">
-                        <h6 class="mb-4"><i class="ti-angle-double-right"></i>&nbsp;Bootstrap</h6>
-                    </div>
-                    <div class="col-sm-4 mb-5">
-                        <h6 class="mb-4"><i class="ti-angle-double-right"></i>&nbsp;Visual Studio</h6>
-                    </div>
-                    <div class="col-sm-4">
-                        <h6 class="mb-4"><i class="ti-angle-double-right"></i>&nbsp;VS Code</h6>
-                    </div>
-                    <div class="col-sm-4">
-                        <h6 class="mb-4"><i class="ti-angle-double-right"></i>&nbsp;Git</h6>
-                    </div>
-                    <div class="col-sm-4">
-                        <h6 class="mb-4"><i class="ti-angle-double-right"></i>&nbsp;GitHub</h6>
-                    </div>
-                </div>
+                <div id="skill-list" class="row text-center"></div>
             </div>
         </section>
-        <!-- End of Skills sections -->
 
-        <!-- Projects section -->
+        <!-- Projects -->
         <section id="projects" class="section">
             <div class="container text-center">
                 <h6 class="subtitle">Projects</h6>
                 <h6 class="section-title mb-4">Check My Wonderful Works</h6>
-                <div class="row text-left">
-
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="./assets/imgs/project10.png" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">OnlineLibrary</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">C#, ASP.NET Core MVC, SQL Server</a>
-                                </div>
-                                <p>A simple online library that allows users to manage books and categories. It includes login and signup functionality, enabling users to borrow and return books seamlessly.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="./assets/imgs/project9.png" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">ReactBeans</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">React JS, Vite, Jelly Belly Wiki API</a>
-                                </div>
-                                <p>This project is a React application built with Vite that allows users to explore and view beans and recipes from the Jelly Belly Wiki API.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="./assets/imgs/project8.jpg" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">StudentGig</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">PHP, MySQL, PayPal (JavaScript SDK)</a>
-                                </div>
-                                <p>StudentGig is a platform designed to connect college students with short-term, flexible gig opportunities.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="./assets/imgs/project7.jpg" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Book n' Map</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">PHP, MySQL, Mapbox</a>
-                                </div>
-                                <p>Book n' Map is a community-driven platform designed to help users discover and share quiet spaces (e.g., libraries).</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="./assets/imgs/project1.png" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">LOC8TE: Mobile Application <strong>(Thesis)</strong></h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">Android Studio, Google Firebase</a>
-                                </div>
-                                <p>A mobile application for locating and communicating with professionals near you.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="assets/imgs/project2.png" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">E-Commerce Website</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">PHP, MySQL</a>
-                                </div>
-                                <p>A website that can assist mall owners in managing different stalls or businesses that are registered.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="assets/imgs/project3.png" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Minesweep: Java Edition</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">Java, MySQL</a>
-                                </div>
-                                <p>Minesweeper game with a leaderboard, saving of data, and increasing difficulty of levels.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="assets/imgs/project4.png" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Lexical, Syntax, and Semantic Analyzer</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">Java</a>
-                                </div>
-                                <p>This application has a simple code editor and a made-up programming language to use. Also, it consists of the first three phases of compiler.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="assets/imgs/project5.png" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Brave Knight: An ASCII Art Adventure</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">C++, ASCII</a>
-                                </div>
-                                <p>A 2D turn-based strategy game wherein the knight needs to conquer a tower full of monsters.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="assets/imgs/project6.png" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Public Bubble (UI Design)</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">Figma</a>
-                                </div>
-                                <p>This is the concept design for a mobile application that will track and manage all types of public vehicles.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div id="project-list" class="row text-left"></div>
             </div>
         </section>
-        <!-- End of projects section -->
 
-        <!-- Awards Section -->
+        <!-- Awards -->
         <section id="awards" class="section">
             <div class="container text-center">
                 <h6 class="subtitle">My Awards</h6>
                 <h6 class="section-title mb-4">Programming Competitions</h6>
-
-                <div class="row text-left">
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="assets/imgs/award1.png" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Champion</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">FEU Institute of Technology</a>
-                                </div>
-                                <p>Clash of Coders: JTCP 2022</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="assets/imgs/award2.jpeg" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Champion</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">Technovation</a>
-                                </div>
-                                <p>PyTournament: An Inter-Collegiate Algorithmic Challenge 2022</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="assets/imgs/award3.png" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Champion</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">FEU Institute of Technology</a>
-                                </div>
-                                <p>Clash of Coders 2021</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="assets/imgs/award4.png" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">1st Place</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">FEU Alabang</a>
-                                </div>
-                                <p>CODEvention: Programming 101 Competition 2021</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card border mb-4">
-                            <img src="assets/imgs/award5.jpeg" alt="" class="card-img-top w-100">
-                            <div class="card-body">
-                                <h5 class="card-title">1st Place</h5>
-                                <div class="post-details">
-                                    <a href="javascript:void(0)">FEU Institute of Technology</a>
-                                </div>
-                                <p>Think Like a Coder 2020</p>
-                            </div>
-                        </div>
-                    </div>
+                <div id="award-list" class="row text-left"></div>
             </div>
         </section>
-        <!-- End of awards section -->
 
         <!-- Page Footer -->
         <footer class="page-footer">
@@ -372,16 +135,16 @@
                 </div>
             </div>
         </footer> 
-        <!-- End of page footer -->
         
-        <!-- core  -->
+        <!-- JQuery -->
         <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+
+        <!-- Bootstrap JS -->
         <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-        <!-- bootstrap 3 affix -->
         <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-        <!-- steller js -->
+        <!-- External JavaScript -->
         <script src="assets/js/steller.js"></script>
-
+        <script type="module" src="./assets/js/index.js"></script>
     </body>
 </html>

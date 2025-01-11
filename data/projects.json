@@ -1,0 +1,56 @@
+[
+    {
+        "imgSrc": "./assets/imgs/projects/project10.png",
+        "title": "OnlineLibrary",
+        "technologies": "C#, ASP.NET Core MVC, SQL Server",
+        "description": "A simple online library that allows users to manage books and categories. It includes login and signup functionality, enabling users to borrow and return books seamlessly."
+    },
+    {
+        "imgSrc": "./assets/imgs/projects/project9.png",
+        "title": "ReactBeans",
+        "technologies": "React JS, Vite, Jelly Belly Wiki API",
+        "description": "This project is a React application built with Vite that allows users to explore and view beans and recipes from the Jelly Belly Wiki API."
+    },
+    {
+        "imgSrc": "./assets/imgs/projects/project8.jpg",
+        "title": "StudentGig",
+        "technologies": "PHP, MySQL, PayPal (JavaScript SDK)",
+        "description": "StudentGig is a platform designed to connect college students with short-term, flexible gig opportunities."
+    },
+    {
+        "imgSrc": "./assets/imgs/projects/project7.jpg",
+        "title": "Book n' Map",
+        "technologies": "PHP, MySQL, Mapbox",
+        "description": "Book n' Map is a community-driven platform designed to help users discover and share quiet spaces (e.g., libraries)."
+    },
+    {
+        "imgSrc": "./assets/imgs/projects/project2.png",
+        "title": "E-Commerce Website",
+        "technologies": "PHP, MySQL",
+        "description": "A website that can assist mall owners in managing different stalls or businesses that are registered."
+    },
+    {
+        "imgSrc": "./assets/imgs/projects/project3.png",
+        "title": "Minesweep: Java Edition",
+        "technologies": "Java, MySQL",
+        "description": "Minesweeper game with a leaderboard, saving of data, and increasing difficulty of levels."
+    },
+    {
+        "imgSrc": "./assets/imgs/projects/project4.png",
+        "title": "Lexical, Syntax, and Semantic Analyzer",
+        "technologies": "Java, Swing GUI",
+        "description": "This application has a simple code editor and a made-up programming language to use. Also, it consists of the first three phases of compiler."
+    },
+    {
+        "imgSrc": "./assets/imgs/projects/project5.png",
+        "title": "Brave Knight: An ASCII Art Adventure",
+        "technologies": "C++, ASCII",
+        "description": "A 2D turn-based strategy game wherein the knight needs to conquer a tower full of monsters."
+    },
+    {
+        "imgSrc": "./assets/imgs/projects/project6.png",
+        "title": "Public Bubble (Design Prototype)",
+        "technologies": "Figma, High Fidelity",
+        "description": "This is the concept design for a mobile application that will track and manage all types of public vehicles."
+    }
+]
