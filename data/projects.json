@@ -26,7 +26,7 @@
     {
         "imgSrc": "./assets/imgs/projects/project7.jpg",
         "title": "Book n' Map",
-        "technologies": "PHP, MySQL, Mapbox",
+        "technologies": "PHP, MySQL, JavaScript, Mapbox",
         "description": "Book n' Map is a community-driven platform designed to help users discover and share quiet spaces (e.g., libraries)."
     },
     {
