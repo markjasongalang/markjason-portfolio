@@ -1,20 +1,26 @@
 [
     {
+        "imgSrc": "./assets/imgs/projects/project12.png",
+        "title": "NovaFeed",
+        "technologies": "React JS, NASA API, Vite",
+        "description": "NovaFeed is a mobile-first website that lets users discover and browse NASA's collection of space-related images/videos with keywords and thumbnail previews."
+    },
+    {
         "imgSrc": "./assets/imgs/projects/project10.png",
         "title": "OnlineLibrary",
         "technologies": "C#, ASP.NET Core MVC, SQL Server",
-        "description": "A simple online library that allows users to manage books and categories. It includes login and signup functionality, enabling users to borrow and return books seamlessly."
+        "description": "This online library web app allows users to manage books and categories. It includes login and signup functionality, enabling users to borrow and return books seamlessly."
     },
     {
         "imgSrc": "./assets/imgs/projects/project11.png",
         "title": "NewsReact",
-        "technologies": "React JS, Vite, NewsDataHub API",
+        "technologies": "React JS, NewsDataHub API, Vite",
         "description": "A modern news aggregation web app powered by NewsDataHub API. Features real-time news feed, search functionality, and a responsive UI."
     },
     {
         "imgSrc": "./assets/imgs/projects/project9.png",
         "title": "ReactBeans",
-        "technologies": "React JS, Vite, Jelly Belly Wiki API",
+        "technologies": "React JS, Jelly Belly Wiki API, Vite",
         "description": "This project is a React application built with Vite that allows users to explore and view beans and recipes from the Jelly Belly Wiki API."
     },
     {
